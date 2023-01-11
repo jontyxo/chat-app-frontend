@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import io from "socket.io-client"
 import Chat from '../chat/chat';
 
-const socket=io.connect('https://chattt-app.onrender.com')
+const socket=io.connect('https://chattt-app.onrender.com/')
 
 function Landing() {
   const  [name,setName]=useState();

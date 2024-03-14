@@ -17,7 +17,7 @@ function Landing() {
   const fetch=async()=>{
  
    
-    apiCall=await io.connect('http://localhost:3001/');
+    apiCall=await io.connect('https://chattt-app.onrender.com/');
     SetSocket(apiCall)
     }
 
